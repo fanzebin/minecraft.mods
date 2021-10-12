@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#a"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_sign"
+    },
+    "a": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag"
+  }
+}

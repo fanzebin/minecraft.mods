@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bab",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "easiermaterial:little_iron_sheet"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

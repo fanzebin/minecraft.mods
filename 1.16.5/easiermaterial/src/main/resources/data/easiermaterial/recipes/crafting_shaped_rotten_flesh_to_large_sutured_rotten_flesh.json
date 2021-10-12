@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "easiermaterial:large_sutured_rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#x",
+        "x#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt",
+            "data": 0
+        },
+        "x": {
+            "item": "minecraft:sand",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "minecraft:clay_ball",
+        "count": 4
+    }
+}

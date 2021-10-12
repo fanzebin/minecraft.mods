@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "easiermaterial:items/large_sutured_rotten_flesh"
+  }
+}

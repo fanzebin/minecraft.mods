@@ -1,0 +1,11 @@
+  {
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "easiermaterial:shulker_shell_model"
+    },
+    "result": {
+      "item": "minecraft:shulker_shell",
+      "count": 1
+    },
+    "experience": 10
+  }
