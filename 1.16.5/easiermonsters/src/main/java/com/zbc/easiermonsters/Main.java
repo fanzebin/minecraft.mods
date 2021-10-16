@@ -124,6 +124,7 @@ public class Main {
                             MatchTool.toolMatches(ItemPredicate.Builder.item().of(Items.SHEARS)).build(),
                             BlockStateProperty.hasBlockStateProperties(Blocks.WHEAT).build()
                     },
+                // **************** I tried modify items here ****************
                     3, Items.DIAMOND, Items.DIAMOND)
             );
 
