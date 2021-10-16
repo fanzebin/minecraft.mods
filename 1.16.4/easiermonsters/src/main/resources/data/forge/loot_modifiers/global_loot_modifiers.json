@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "examplemod:wheat_harvest",
+    "examplemod:silk_touch_bamboo",
+    "examplemod:smelting"
+  ]
+}

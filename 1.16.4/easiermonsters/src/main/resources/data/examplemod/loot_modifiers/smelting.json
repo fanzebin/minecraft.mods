@@ -1,0 +1,18 @@
+{
+  "type": "examplemod:smelting",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "enchantments": [
+          {
+            "enchantment": "global_loot_test:smelt",
+            "levels": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
