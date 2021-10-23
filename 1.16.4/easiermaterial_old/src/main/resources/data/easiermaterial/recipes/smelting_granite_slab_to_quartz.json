@@ -1,0 +1,11 @@
+  {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:granite_slab"
+    },
+    "result": {
+      "item": "minecraft:quartz",
+      "count": 1
+    },
+    "experience": 10
+  }

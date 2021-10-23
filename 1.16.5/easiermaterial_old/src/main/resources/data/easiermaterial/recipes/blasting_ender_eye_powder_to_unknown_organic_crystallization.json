@@ -1,0 +1,11 @@
+  {
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "easiermaterial:ender_eye_powder"
+    },
+    "result": {
+      "item": "easiermaterial:unknown_organic_crystallization",
+      "count": 1
+    },
+    "experience": 10
+  }

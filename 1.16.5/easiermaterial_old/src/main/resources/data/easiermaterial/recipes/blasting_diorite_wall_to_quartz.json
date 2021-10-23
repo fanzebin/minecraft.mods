@@ -1,0 +1,11 @@
+  {
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "minecraft:diorite_wall"
+    },
+    "result": {
+      "item": "minecraft:quartz",
+      "count": 1
+    },
+    "experience": 10
+  }
