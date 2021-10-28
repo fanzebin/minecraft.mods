@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "easiermaterial:items/little_iron_sheet"
-  }
-}
