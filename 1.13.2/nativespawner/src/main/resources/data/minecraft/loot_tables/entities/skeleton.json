@@ -12,7 +12,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 4
               }
             },
             {
@@ -38,7 +38,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 4
               }
             },
             {
@@ -53,22 +53,80 @@
       ]
     },
     {
-      "conditions": [
+      "rolls": 1,
+      "entries": [
         {
-          "condition": "killed_by_player"
-        },
+          "type": "item",
+          "name": "minecraft:bone_meal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.05,
-          "looting_multiplier": 0.01
+          "type": "item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.04,
+          "looting_multiplier": 0.01
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
           "type": "item",
           "name": "minecraft:skeleton_spawn_egg",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.01
         }
       ]
     }
